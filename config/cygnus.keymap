@@ -33,6 +33,23 @@
                         >;
         };
 
+        wasd_layer {
+            // -----------------------------------------------------------------------------------------
+            // | 5  |  ESC |  1  |  2  |  3  |  4  |   |  6  |  7   |  8  |  9  |  0  |  ?   |
+            // | T  |  TAB |  Q  |  W  |  E  |  R  |   |  T  |  Y  |  U   |  I  |  O  | BKSP |
+            // | G  | SHFT |  A  |  S  |  D  |  F  |   |  G  |  H  |  J   |  K  |  L  |  '   |
+            // | B  | CTRL |  Z  |  X  |  C  |  V  |   |  B  |  N  |  M   |  ,  |  .  |  /  | ESC  |
+            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+
+            bindings = <
+    &kp N5 &kp ESCAPE &kp N1 &kp N2 &kp N3 &kp N4     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp BSPC
+    &kp T  &kp TAB    &kp Q  &kp W  &kp E  &kp R      &kp T  &kp Y  &kp U  &kp I  &kp O  &kp BSPC
+    &kp G  &kp LSHFT  &kp A  &kp S  &kp D  &kp F      &kp G  &kp H  &kp J  &kp K  &kp L  &kp SQT
+    &kp B  &kp LCTRL  &kp X  &kp C  &kp V  &kp B      &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp ESC
+                        &mo 1 &kp C &kp SPACE      &kp RET &mo 2 &kp RALT
+                        >;
+        };
+
         layer_1 {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  F1 |  F2 |  F3 |  F4 |  F5 |   |  F6 |  F7 |  F8 |  F9 | F10 | BKSP |
@@ -53,7 +70,7 @@
         layer_2 {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+            // | CTRL |     |     |     |  <  |  >  |   |  -  |  =  |  [  |  ]  |  \  |  `   |
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
