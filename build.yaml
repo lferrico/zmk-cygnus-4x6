@@ -20,7 +20,7 @@
 include:
   # Dongle
   - board: nice_nano_v2
-    shield: cygnus_central_dongle dongle_display
+    shield: cygnus_central_dongle dongle_display oled_adapter_pro_micro_128x64
     artifact-name: cygnus_central_dongle
   # Left side
   - board: nice_nano_v2
