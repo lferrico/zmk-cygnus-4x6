@@ -15,7 +15,7 @@ manifest:
       remote: caksoylar
       revision: main
     - name: zmk-dongle-display
-      remote: mctechnology17
+      remote: englmaxi
       revision: main
   self:
     path: config
